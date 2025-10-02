@@ -17,13 +17,13 @@ It explores how traditional **Kolam (Rangoli)** patterns can be digitized using 
 
 ### Backend
 
-cd backend
+cd Kolam-backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
 ### Frontend
 
-cd frontend
+cd Kolam-frontend
 npm install
 npm start
 
