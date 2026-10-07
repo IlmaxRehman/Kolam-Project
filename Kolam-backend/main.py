@@ -44,7 +44,7 @@ async def upload_file(file: UploadFile = File(...)):
     return {
         "file_id": file_id,
         "file_path": file_path,
-        "file_url": f"http://127.0.0.1:8000/uploads/{file_id}.png"
+        "file_url": f"https://kolam-project.onrender.com/uploads/{file_id}.png"
     }
 
 
@@ -83,7 +83,7 @@ async def analyze_file(payload: dict):
     analyzed_path = os.path.join(ANALYZED_DIR, f"{file_id}_analyzed.png")
     cv2.imwrite(analyzed_path, img)
 
-    return {"analyzed_url": f"http://127.0.0.1:8000/analyzed/{file_id}_analyzed.png"}
+    return {"analyzed_url": f"https://kolam-project.onrender.com/analyzed/{file_id}_analyzed.png"}
 
 
 # Regenerate File
@@ -124,4 +124,4 @@ async def regenerate_file(payload: dict):
     generated_path = os.path.join(GENERATED_DIR, f"{file_id}_generated.png")
     cv2.imwrite(generated_path, img)
 
-    return {"generated_url": f"http://127.0.0.1:8000/generated/{file_id}_generated.png"}
+    return {"generated_url": f"https://kolam-project.onrender.com/generated/{file_id}_generated.png"}

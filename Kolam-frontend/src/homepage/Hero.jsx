@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { gsap } from "gsap";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://kolam-project.onrender.com/upload";
 
 function Hero() {
   const [uploadedImage, setUploadedImage] = useState(null);
