@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { gsap } from "gsap";
 
-const BACKEND_URL = "https://kolam-project.onrender.com/upload";
+const BACKEND_URL = "https://kolam-project.onrender.com";
 
 function Hero() {
   const [uploadedImage, setUploadedImage] = useState(null);
