@@ -13,7 +13,7 @@ app = FastAPI()
 #  React frontend Access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","kolam-project.vercel.app"], 
+    allow_origins=["http://localhost:5173","https://kolam-project.vercel.app"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
