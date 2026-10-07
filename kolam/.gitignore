@@ -1,0 +1,22 @@
+# Node
+node_modules/
+build/
+dist/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Java
+*.class
+*.jar
+*.war
+target/
+
+# Environment
+.env
+
+# System
+.DS_Store
+Thumbs.db

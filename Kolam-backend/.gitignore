@@ -1,0 +1,39 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Generated / runtime files
+uploads/*
+analyzed/*
+generated/*
+results/*
+json_data/*
+
+# Keep folder structure in Git
+!uploads/.gitkeep
+!analyzed/.gitkeep
+!generated/.gitkeep
+!results/.gitkeep
+!json_data/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
